@@ -8,13 +8,6 @@ def nyc_pigeon_organizer(data)
        else
          pigeon_list[attribute] ||= []
          pigeon_list[attribute] << info.to_s
-         
-         
-          if pigeon_list[name].include?(attribute) 
-            pigeon_list[name][attribute] << info.to_s 
-          else
-            pigeon_list[name][attribute] == info.to_s
-          end
         end
       end
     end
