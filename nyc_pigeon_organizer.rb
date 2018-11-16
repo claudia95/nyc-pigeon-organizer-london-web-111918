@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
          pigeon_list[attribute] ||= []
          pigeon_list[attribute] << info.to_s
         end
+      end
     end
   end
   pigeon_list
