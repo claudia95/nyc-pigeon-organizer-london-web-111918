@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     value.each do |info, pigeon_name|
       pigeon_name.each do |name|
        if !pigeon_list.include?(name)
-         pigeon_list
+         pigeon_list[names]
          
          
           if pigeon_list[name].include?(attribute) 
