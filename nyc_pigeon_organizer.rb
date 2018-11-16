@@ -6,7 +6,8 @@ def nyc_pigeon_organizer(data)
        if !pigeon_list.include?(name)
          pigeon_list[names] = {}
        else
-         pigeon_list[]
+         pigeon_list[attribute] ||= []
+         pigeon_list[attribute]
          
          
           if pigeon_list[name].include?(attribute) 
